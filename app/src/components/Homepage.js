@@ -4,7 +4,6 @@ import '../styles/Homepage.css';
 const styles = {
   front: {
     background: "#242526"
-    
   }
 };
 
