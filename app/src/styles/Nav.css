@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    margin-right: 25px;
+}
+
+.navbar {
+    justify-content: right;
+}
+

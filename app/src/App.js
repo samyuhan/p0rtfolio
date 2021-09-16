@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Homepage from "./components/Homepage";
-// import Navbar from "./components/Navbar";
+//import Nav from "./components/Nav";
 // import Footer from "./components/Footer";
 // import About from "./components/About";
 // import Portfolio from "./components/Portfolio";
@@ -39,7 +39,9 @@ function App() {
 
   return (
     <div>
-      <Homepage />
+      <div>
+        <Homepage />
+      </div>
     </div>
   )
 }
