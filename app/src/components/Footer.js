@@ -9,7 +9,6 @@ const styles = {
   },
   i: {
     fontSize: "20px",
-    color: "white",
     margin: "10px"
   }
 };

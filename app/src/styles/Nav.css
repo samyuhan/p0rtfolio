@@ -24,7 +24,7 @@ nav ul {
 }
 
 .nav-item a:hover {
-    color: #fff; 
+    color: #ffd642; 
     cursor: pointer;
 }
 
@@ -33,7 +33,7 @@ nav ul {
     display: block;
     width: 0;
     height: 0.5px;
-    background: #fff;
+    background: #ffd642;
     transition: width .3s;
     margin: 0 auto;
 }

@@ -11,5 +11,15 @@
     justify-content: center;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+    
+}
+
+i {
+    color: white;
+}
+
+i:hover {
+    color: #ffd642;
 }
