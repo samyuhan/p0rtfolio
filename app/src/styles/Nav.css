@@ -1,15 +1,44 @@
-.nav {
-    display: flex;
+nav {
+    float: right;
 }
 
+nav ul {
+    display: flex;
+}
 .nav-item {
-    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 0 10px;
     font-family: 'Work Sans', sans-serif;
     display: flex;
     margin-right: 25px;
+    margin-top: 25px;
 }
 
-.navbar {
-    justify-content: right;
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+    height: 30px; 
+    padding: 0px;
 }
 
+.nav-item a:hover {
+    color: #fff; 
+    cursor: pointer;
+}
+
+.nav-item a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.5px;
+    background: #fff;
+    transition: width .3s;
+    margin: 0 auto;
+}
+
+.nav-item a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
