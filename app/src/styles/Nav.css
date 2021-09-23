@@ -4,6 +4,7 @@ nav {
 
 nav ul {
     display: flex;
+    margin-right: 50px;
 }
 .nav-item {
     font-size: 13px;
@@ -12,7 +13,7 @@ nav ul {
     font-family: 'Work Sans', sans-serif;
     display: flex;
     margin-right: 25px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .nav-item a {
@@ -23,14 +24,17 @@ nav ul {
     padding: 0px;
 }
 
-.nav-item a:hover {
+.underline a:hover {
     color: #ffd642; 
     cursor: pointer;
 }
 
 .nav-item a::after {
-    content: '';
     display: block;
+}
+
+.underline a::after {
+    content: '';
     width: 0;
     height: 0.5px;
     background: #ffd642;
@@ -38,7 +42,73 @@ nav ul {
     margin: 0 auto;
 }
 
-.nav-item a:hover::after {
+.underline a:hover::after {
     width: 100%;
     transition: width .3s;
 }
+
+.resumebtn {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 100px;
+    opacity: 1;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffd642;
+    cursor: pointer;
+    margin-top: -5px;
+  }
+  
+  .resumebtn:hover {
+    animation: resumebtnrotate 0.7s ease-in-out both;
+  }
+  
+  .resumebtn:hover .resumespan {
+    animation: resumebtnstorm 0.7s ease-in-out both;
+    animation-delay: 0.06s;
+  }
+  
+  @keyframes resumebtnrotate {
+    0% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25% {
+      transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+    50% {
+      transform: rotate(-3deg) translate3d(0, 0, 0);
+    }
+    75% {
+      transform: rotate(1deg) translate3d(0, 0, 0);
+    }
+    100% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes resumebtnstorm {
+    0% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+    25% {
+      transform: translate3d(4px, 0, 0) translateZ(0);
+    }
+    50% {
+      transform: translate3d(-3px, 0, 0) translateZ(0);
+    }
+    75% {
+      transform: translate3d(2px, 0, 0) translateZ(0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+  }

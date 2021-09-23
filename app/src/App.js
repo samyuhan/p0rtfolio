@@ -4,7 +4,6 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import About from "./components/About";
 // import Portfolio from "./components/Portfolio";
-// import Contact from "./components/Contact";
 // import Resume from "./components/Resume";
 
 function App() {
@@ -17,9 +16,6 @@ function App() {
     }
     // if (currentPage === 'Portfolio') {
     //   return <Portfolio />;
-    // }
-    // if (currentPage === 'Contact') {
-    //   return <Contact />;
     // }
     // if (currentPage === 'Resume') {
     //   return <Resume />;

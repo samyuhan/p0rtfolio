@@ -31,7 +31,7 @@ function Homepage({ currentPage, handlePageChange }) {
   }, [fadeProp])
 
   return (
-    <div style={styles.front} className="front">
+    <div className="front">
       <p className="title">SAMANTHA YUHAN</p>
       <p className="desc">coder.&nbsp; creator.&nbsp; aspiring designer.&nbsp;</p>
 
