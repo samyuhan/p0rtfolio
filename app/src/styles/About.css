@@ -1,3 +1,53 @@
-h1 {
+.abt {
+    padding-top: 17%;
+}
+
+.mepic {
+    position: absolute;
+    display: flex;
+    transform: rotate(-5deg);
+    float: left;
+    margin-left: 15%;
+}
+
+.abtme {
     color: white;
+    /* float: right;
+    margin-right: 15%; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    word-spacing: 2px;
+    width: 520px;
+    white-space: initial;
+    margin-bottom: 15px;
+}
+
+.abtmehover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #dcfb54;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+
+a img { 
+    display: none; 
+    position: absolute;
+}
+a:hover img { 
+    display: block;
+}
+
+.background {
+    position: absolute;
+    font-size: 200px;
+    font-weight: 800;
+    color: black;
+    text-shadow: 1px 4px 20px rgb(15, 15, 15), 0 0 0 #000, 1px 4px 6px rgb(20, 20, 20);
+    text-align: center;
+    justify-content: center;
 }

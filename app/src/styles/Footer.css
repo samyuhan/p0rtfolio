@@ -13,7 +13,7 @@
     margin-right: -50%;
     transform: translate(-50%, -50%);
     justify-content: space-between;
-    
+    position: sticky;
 }
 
 i {
@@ -21,5 +21,5 @@ i {
 }
 
 i:hover {
-    color: #ffd642;
+    color: #dcfb54;
 }
