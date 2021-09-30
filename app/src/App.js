@@ -21,7 +21,9 @@ function App() {
       return <Visual />;
     } else if (currentPage === 'Research') {
       return <Research />;
-    }
+    } else if (currentPage === 'Resume') {
+      return <Research />;
+    } 
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
