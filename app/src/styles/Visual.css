@@ -1,4 +1,56 @@
 .visual-container {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    width: 100vw;
+    justify-content: center;
+    perspective: 1px;
+    height: 60vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax__group {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+  }
+
+.parallax__layer--base {
+    transform: translateZ(0);
+}
+
+.parallax__layer--mid {
+    transform: translateZ(-1px) scale(2);
+}
+
+.parallax__layer--back {
+    transform: translateZ(-1.5px) scale(2);
+}
+
+.visual-container:hover > div {
+    opacity: 0.3;
+}
+
+.visual-container:hover > div:hover{
+    opacity: 1.0;
+    transform: scale(1.2);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.visual-container:hover > div:hover .artdesc {
+    visibility: visible;
+}
+
+.artdesc {
+    color: white;
+    visibility: hidden;
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+.art {
+    margin: 10px;
 }
