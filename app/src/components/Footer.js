@@ -4,12 +4,11 @@ import '../styles/Footer.css';
 const styles = {
   footing: {
     textAlign: "center",
-    position: "absolute",
-    bottom: "0px"
+    bottom: "0"
   },
   i: {
     fontSize: "20px",
-    margin: "10px"
+    margin: "15px"
   }
 };
 

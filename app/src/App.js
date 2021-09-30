@@ -3,6 +3,7 @@ import Homepage from "./components/Homepage";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import Visual from "./components/Visual";
 // import Portfolio from "./components/Portfolio";
 // import Resume from "./components/Resume";
 
@@ -41,7 +42,7 @@ function App() {
         ) : (
           <>
             <Nav />
-            <About />
+            <Visual />
             <Footer />
           </>
         )}
