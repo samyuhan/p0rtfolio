@@ -1,6 +1,7 @@
 nav {
     float: right;
     position: sticky;
+    margin-bottom: 20px;
 }
 
 nav ul {

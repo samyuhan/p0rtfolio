@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import '../styles/About.css';
 
-function About(){
+function About({ currentPage, handlePageChange }){
     return (
         <div className="abt">
             {/* <img src="snow.png" alt="Picture of me snowboarding" height="200" className="mepic"></img> */}

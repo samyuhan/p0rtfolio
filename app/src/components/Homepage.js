@@ -35,8 +35,8 @@ function Homepage({ currentPage, handlePageChange }) {
       <p className="title">SAMANTHA YUHAN</p>
       <p className="desc">coder.&nbsp; creator.&nbsp; aspiring designer.&nbsp;</p>
 
-      <a href="#about" onClick={() => handlePageChange('About Me')}
-        className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}>
+      <a href="#about" onClick={() => handlePageChange('About')}
+        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
         <button className={`${fadeProp.fade} exp btn41-43 btn-42`}>E X P L O R E</button>
       </a>
 

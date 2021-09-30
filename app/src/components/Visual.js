@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Visual.css';
 
-function Visual() {
+function Visual({ currentPage, handlePageChange }) {
     return (
         <section className="visual-container">
             <div class="parallax__layer parallax__layer--base">

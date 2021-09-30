@@ -4,45 +4,46 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Visual from "./components/Visual";
+import Research from "./components/Research";
 // import Portfolio from "./components/Portfolio";
 // import Resume from "./components/Resume";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('');
+  const [currentPage, setCurrentPage] = useState('Homepage');
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
-    if (currentPage === 'About Me') {
+    if (currentPage === 'Homepage') {
+      return <Homepage />;
+    } else if (currentPage === 'About') {
       return <About />;
+    } else if (currentPage === 'Visual') {
+      return <Visual />;
+    } else if (currentPage === 'Research') {
+      return <Research />;
     }
-    // if (currentPage === 'Portfolio') {
-    //   return <Portfolio />;
-    // }
-    // if (currentPage === 'Resume') {
-    //   return <Resume />;
-    // }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
-  // return (
-  //   <div>
-  //     <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-  //     <Header />
-  //     {renderPage()}
-  //     <Footer />
-  //   </div>
-  // );
+//   return (
+//     <div>
+//       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+//       {renderPage()}
+//       <Footer />
+//     </div>
+//   );
+// }
 
   return (
     <div>
       <div>
-        {currentPage !== 'About Me' ? (
-          <Homepage currentPage={currentPage} handlePageChange={handlePageChange}/>
+        {currentPage === 'Homepage' ? (
+          <Homepage currentPage={currentPage} handlePageChange={handlePageChange} />
         ) : (
           <>
-            <Nav />
-            <Visual />
+            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            {renderPage()}
             <Footer />
           </>
         )}

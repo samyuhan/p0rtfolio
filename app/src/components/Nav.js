@@ -8,8 +8,8 @@ function Nav({ currentPage, handlePageChange }) {
         <nav>
             <ul>
                 <li className="nav-item underline">
-                    <a href="#about" onClick={() => handlePageChange('About Me')}
-                        className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}>
+                    <a href="#about" onClick={() => handlePageChange('About')}
+                        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
                         ABOUT
                     </a>
                 </li>
