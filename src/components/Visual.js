@@ -24,6 +24,7 @@ function Visual({ currentPage, handlePageChange }) {
                 <img src="visual/oakfest_logo.png" className="art oakfest" width="300"></img>
                 <p className="artdesc">Oakfest logo, pencil.</p>
             </div>
+            
             <div class="parallax__layer parallax__layer--base">
                 <img src="visual/google.tif" className="art google" width="500"></img>
                 <p className="artdesc">Google logo, made with photoshop.</p>
@@ -31,6 +32,10 @@ function Visual({ currentPage, handlePageChange }) {
             <div class="parallax__layer parallax__layer--mid">
                 <img src="visual/oakfest_letters.tif" className="art oakfestletters" width="500"></img>
                 <p className="artdesc">Oakfest shirt logo, made with illustrator.</p>
+            </div>
+            <div class="parallax__layer parallax__layer--base">
+                <img src="visual/sailor.jpeg" className="art sailor" width="300"></img>
+                <p className="artdesc">Sailor Moon, illustration on tablet.</p>
             </div>
             <div class="parallax__layer parallax__layer--base">
                 <img src="visual/cubesat.png" className="art cubesat" width="300"></img>
