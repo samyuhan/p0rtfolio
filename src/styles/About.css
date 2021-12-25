@@ -13,13 +13,12 @@
 .abtme {
     color: white;
     float: right;
-    margin-right: 5%;
+    margin-right: 10%;
     text-align: justify;
-    font-size: 25px;
-    font-family: 'Work Sans', sans-serif;
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
-    word-spacing: 2px;
-    width: 800px;
+    width: 650px;
     white-space: initial;
     margin-bottom: 15px;
 }
@@ -28,7 +27,7 @@
     text-decoration: none;
     cursor: pointer;
     color: #dcfb54;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
 }
 
