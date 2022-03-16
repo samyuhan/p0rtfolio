@@ -2,11 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 0%;
-    padding-bottom: 5%;
+    padding-bottom: 0%;
     width: 100vw;
     justify-content: center;
     perspective: 1px;
-    height: 75vh;
+    height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
 }

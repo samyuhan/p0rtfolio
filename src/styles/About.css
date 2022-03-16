@@ -31,6 +31,10 @@
     font-weight: 800;
 }
 
+.abtmehover:hover {
+    color: orange;
+}
+
 a img { 
     display: none; 
     position: absolute;
@@ -63,3 +67,19 @@ a:hover img {
     margin-top: 300px;
     z-index: 1;
 }
+
+
+.highlight {
+    margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 225, 0, 0.1),
+    rgba(255, 225, 0, 0.7) 4%,
+    rgba(255, 225, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+    }

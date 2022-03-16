@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Homepage from "./components/Homepage";
 import Nav from "./components/Nav";
-import Footer from "./components/Footer";
 import About from "./components/About";
 import Visual from "./components/Visual";
 import Research from "./components/Research";
@@ -32,7 +31,6 @@ function App() {
 //     <div>
 //       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
 //       {renderPage()}
-//       <Footer />
 //     </div>
 //   );
 // }
@@ -46,7 +44,6 @@ function App() {
           <>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
-            <Footer />
           </>
         )}
       </div>
